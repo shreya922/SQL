@@ -1,0 +1,4 @@
+/* Write your T-SQL query statement below */
+​
+​
+Select a.Name as Employee from Employee a INNER JOIN Employee b ON a.ManagerId=b.Id where a.Salary>b.Salary
